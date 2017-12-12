@@ -7,10 +7,11 @@
     <artifactId>malek</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>movieservice</module>
-        <module>moviestarter</module>
-        <module>movies</module>
-        <module>loggerstarter</module>
+        <module>malek-logger-starter</module>
+        <module>malek-movies</module>
+        <module>malek-movies-service</module>
+        <module>malek-movies-starter</module>
+        <module>malek-logger</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,20 +31,24 @@
         <dependencies>
             <dependency>
                 <groupId>com.hello</groupId>
-                <artifactId>movie-service</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <artifactId>malek-movies-service</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.hello</groupId>
-                <artifactId>movie-starter</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <artifactId>malek-movies-starter</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.hello</groupId>
-                <artifactId>logger-starter</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <artifactId>malek-logger-starter</artifactId>
+                <version>${project.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.hello</groupId>
+                <artifactId>malek-logger</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
