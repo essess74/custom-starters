@@ -3,6 +3,7 @@ package com.hello.web;
 import fr.malek.logging.annotation.Loggable;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,7 +15,7 @@ public class HelloController {
     private Logger logger;
 
     @Loggable
-    @RequestMapping
+    @GetMapping(value = "/world")
     public String hello() {
         logger.info("hee");
         return "hello world";

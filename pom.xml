@@ -12,6 +12,7 @@
         <module>malek-movies-service</module>
         <module>malek-movies-starter</module>
         <module>malek-logger</module>
+        <module>malek-swagger-starter</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -42,6 +43,11 @@
             <dependency>
                 <groupId>com.hello</groupId>
                 <artifactId>malek-logger-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.hello</groupId>
+                <artifactId>malek-swagger-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

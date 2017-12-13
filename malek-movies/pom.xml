@@ -21,6 +21,10 @@
             <artifactId>malek-logger-starter</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.hello</groupId>
+            <artifactId>malek-swagger-starter</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
