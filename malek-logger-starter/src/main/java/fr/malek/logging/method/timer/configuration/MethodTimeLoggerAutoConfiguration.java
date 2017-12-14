@@ -1,7 +1,6 @@
 package fr.malek.logging.method.timer.configuration;
 
 import fr.malek.logging.method.timer.DefaultMethodTimeLogger;
-import fr.malek.logging.method.timer.MethodTimeLogger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InjectionPoint;
