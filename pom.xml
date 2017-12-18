@@ -13,6 +13,8 @@
         <module>malek-movies-starter</module>
         <module>malek-logger</module>
         <module>malek-swagger-starter</module>
+        <module>malek-soap-service</module>
+        <module>malek-soap-starter</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -87,6 +89,11 @@
             <dependency>
                 <groupId>com.hello</groupId>
                 <artifactId>malek-swagger-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.hello</groupId>
+                <artifactId>malek-soap-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
